@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    transition: 0.5s;
+}
+
+
+
+.block {
+    padding: 25px;
+    border: 3px solid black;
+}
+.display {
+    border: 8px dashed black;
+    width: 75px;
+    height: 75px;
+}
+
+
+
+.redp {
+    color: red;
+}
+.blueh3 {
+    color: blue;
+}
+.div {
+    border: 3px solid black;
+    background: rosybrown;
+}
+
+
+
+
+
+
+
+* {
+    text-align: center;
+}
+@font-face {
+    font-family: montserratReg;
+    src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: montserratMed;
+    src: url(Montserrat-Medium.ttf);
+}
+.game__block {
+    margin: auto;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 10px;
+    max-width: 350px;
+    margin-top: 100px;
+    background: white;
+}
+.bot__block {
+    background: rgb(235, 235, 235);
+    padding: 15px;
+}
+.player__block {
+    /*background: rgb(235, 235, 235);*/
+    margin-top: 50px;
+    padding: 25px;
+}
+.player__btn {
+    font-family: montserratReg;
+    padding: 10px;
+    background: darkslateblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.player__btn:hover {
+    background: rgb(27, 23, 54);
+}
+.player__btn.disabled {
+    background: grey;
+}
+.start__btn {
+    font-family: montserratReg;
+    padding: 15px;
+    background: rgb(61, 139, 65);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.start__btn:hover {
+    background: rgb(23, 54, 27);
+}
+.bot__text {
+    font-family: montserratMed;
+}
+.end__text {
+    margin-top: 50px;
+    font-family: montserratMed;
+}
+.player__text {
+    font-family: montserratMed;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+@media (max-width:576px) {
+    .btn__block {
+        display: flex;
+        flex-direction: column;
+    }
+    .player__btn {
+        margin-top: 15px;
+    }
+}
